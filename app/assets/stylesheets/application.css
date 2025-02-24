@@ -13,3 +13,43 @@
  *= require_tree .
  *= require_self
  */
+ .container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+p strong {
+    display: block;
+    margin-bottom: 20px; /* Augmente l'espace */
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.alert-info {
+  font-size: 1.3rem;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  color: #0c5460;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+}

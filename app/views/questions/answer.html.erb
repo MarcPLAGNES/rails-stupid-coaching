@@ -1,0 +1,9 @@
+<%# <a href="/ask">Ask</a> %>
+<%# <p><%= @answer</p> %>
+
+<div class="container mt-5">
+    <h1> Coach's answer</h1>
+    <p class="alert alert-success"><strong>Your question</strong><%=@message%></p>
+    <p class="alert alert-info"><strong>Coach's reponse</strong> <%= @answer%></p>
+    <%= link_to "Ask antoher question", ask_path, class: "btn btn-primary mt-3"%>
+</div>
